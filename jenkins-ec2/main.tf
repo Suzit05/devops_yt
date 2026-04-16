@@ -44,7 +44,7 @@ resource "aws_instance" "myinstance" {
   }
 }
 
-
+# eec4e156b5934fc4a3fed0f799cb49cf 
 output "public_ip" {
   value = aws_instance.myinstance.public_ip
 }
